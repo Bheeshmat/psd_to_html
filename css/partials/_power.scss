@@ -1,0 +1,27 @@
+.power{
+  background-image: url("../images/car.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  color: $text-color-light;
+  .power-msg{
+    position: absolute;
+    top: 60vh;
+  }
+  h1 {
+    font-size: 5rem;
+    font-weight: 300;
+  }
+  p {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  a{
+    color: $text-color-light;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}

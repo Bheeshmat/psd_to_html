@@ -1,4 +1,36 @@
-h1 {
-  font-size: 60px;
-  // font-family: 'Open Sans', sans-serif;
+#land{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/header.jpeg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  color: $text-color-light;
+  position: relative;
+  .header{
+    margin-top: 3rem;
+    i {
+      font-size: 4rem;
+    }
+    span{
+      position: relative;
+      top: -0.5rem;
+      left: 1rem;
+      font-size: 2.5rem;
+      font-style: italic;
+    }
+  }
+  .welcome-msg{
+    position: absolute;
+    top: 33vh;
+    transform: translateY(50%);
+    h1 {
+      font-size: 5rem;
+      color: $text-color-light;
+      font-weight: 300;
+    }
+    p {
+      font-size: 1.5rem;
+      color: $text-color-light;
+      font-weight: 100;
+    }
+   }
 }

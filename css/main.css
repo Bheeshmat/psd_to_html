@@ -1,7 +1,169 @@
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  color: #717171; }
 
-h1 {
-  font-size: 60px; }
+#land {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/header.jpeg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  position: relative; }
+  #land .header {
+    margin-top: 3rem; }
+    #land .header i {
+      font-size: 4rem; }
+    #land .header span {
+      position: relative;
+      top: -0.5rem;
+      left: 1rem;
+      font-size: 2.5rem;
+      font-style: italic; }
+  #land .welcome-msg {
+    position: absolute;
+    top: 33vh;
+    transform: translateY(50%); }
+    #land .welcome-msg h1 {
+      font-size: 5rem;
+      color: #fff;
+      font-weight: 300; }
+    #land .welcome-msg p {
+      font-size: 1.5rem;
+      color: #fff;
+      font-weight: 100; }
+
+.intro {
+  margin: 4rem 0 4rem; }
+  .intro h2 {
+    color: #717171;
+    font-size: 3rem; }
+
+.features {
+  color: #fff; }
+  .features #quality {
+    background-color: #f5999e;
+    padding: 2rem 2rem 4rem 2rem; }
+  .features #built {
+    background-color: #625f7e;
+    padding: 2rem 2rem 4rem 2rem; }
+  .features #clients {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bridge.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 2rem 4rem 2rem; }
+  .features #sign-up {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/backpacker.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 2rem 4rem 2rem; }
+  .features #picture {
+    background-color: #82ca9c;
+    padding: 2rem 2rem 4rem 2rem; }
+  .features a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 1rem;
+    margin-bottom: 2rem; }
+    .features a:hover {
+      text-decoration: underline; }
+    .features a h3 {
+      font-size: 2rem;
+      font-weight: 100; }
+
+.details h2 {
+  margin: 5rem 0 1rem 0; }
+.details h3 {
+  font-size: 2rem; }
+.details p {
+  margin-bottom: 10rem; }
+
+.power {
+  background-image: url("../images/car.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  color: #fff; }
+  .power .power-msg {
+    position: absolute;
+    top: 60vh; }
+  .power h1 {
+    font-size: 5rem;
+    font-weight: 300; }
+  .power p {
+    font-size: 1.5rem;
+    font-weight: 100; }
+  .power a {
+    color: #fff;
+    text-decoration: none; }
+    .power a:hover {
+      text-decoration: underline; }
+
+.reason {
+  background-color: #82ca9c;
+  color: #fff; }
+  .reason h1 {
+    margin: 8rem 0 3rem 0;
+    font-weight: 200; }
+  .reason p {
+    margin-bottom: 10rem; }
+
+.plans-section {
+  background-color: #f6f7fb; }
+  .plans-section .plan {
+    margin: 8rem 0 12rem 0;
+    padding: 5rem 5rem 8rem 5rem; }
+    .plans-section .plan span {
+      color: #fff;
+      border-radius: 2px;
+      padding: 5px 8px; }
+    .plans-section .plan h2 {
+      font-size: 3rem; }
+    .plans-section .plan p {
+      margin: 3rem 3rem 3rem 0; }
+    .plans-section .plan .btn-buy-now {
+      background-color: #82ca9c;
+      border-radius: 1px;
+      text-transform: uppercase; }
+    .plans-section .plan a {
+      color: #fff;
+      font-size: 1.5rem;
+      padding: 1rem 4rem; }
+      .plans-section .plan a:hover {
+        color: #fff;
+        text-decoration: underline; }
+    .plans-section .plan i {
+      margin: 2rem 1rem 0 0;
+      font-size: 3rem; }
+  .plans-section #team-plan {
+    background-color: #fff;
+    box-shadow: 0 0 25px rgba(91, 88, 88, 0.44); }
+  .plans-section #popular {
+    background-color: #bf8bbc; }
+
+footer {
+  background-color: #1a2430;
+  padding: 12rem 0 12rem 0;
+  color: #fff; }
+  footer .footer-col {
+    padding-right: 10rem; }
+  footer h4 {
+    font-size: 2rem; }
+  footer p {
+    font-size: 1rem;
+    line-height: 2rem; }
+  footer h5 {
+    font-size: 1rem;
+    font-weight: bold; }
+  footer a {
+    display: block;
+    font-size: 1rem;
+    color: #fff; }
+    footer a:hover {
+      color: #fff;
+      text-decoration: underline; }
+    footer a .form-control {
+      border-radius: 1px;
+      height: 4rem; }
 
 /*# sourceMappingURL=main.css.map */

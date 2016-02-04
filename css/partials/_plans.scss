@@ -1,0 +1,45 @@
+
+.plans-section{
+  background-color: #f6f7fb;
+  .plan{
+    margin: 8rem 0 12rem 0;
+    padding: 5rem 5rem 8rem 5rem;
+    span{
+      color: $text-color-light;
+      border-radius: 2px;
+      padding: 5px 8px;
+    }
+    h2{
+      font-size: 3rem;
+    }
+    p{
+      margin: 3rem 3rem 3rem 0;
+    }
+    .btn-buy-now{
+      background-color: $color-perfect-pictures;
+      border-radius: 1px;
+      text-transform: uppercase;
+      // width: 10rem;
+    }
+    a{
+      color: $text-color-light;
+      font-size: 1.5rem;
+      padding: 1rem 4rem;
+      &:hover{
+        color: $text-color-light;
+        text-decoration: underline;
+      }
+    }
+    i{
+      margin: 2rem 1rem 0 0;
+      font-size: 3rem;
+    }
+  }
+  #team-plan{
+    background-color: #fff;
+    box-shadow: 0 0 25px rgba(#5b5858, 0.44);
+  }
+  #popular{
+    background-color: #bf8bbc;
+  }
+}

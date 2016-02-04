@@ -1,0 +1,40 @@
+.features{
+  color: $text-color-light;
+  #quality{
+    background-color: $color-design-quality;
+    padding: 2rem 2rem 4rem 2rem;
+  }
+  #built{
+    background-color: $color-built-to-last;
+    padding: 2rem 2rem 4rem 2rem;
+  }
+  #clients{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/bridge.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 2rem 4rem 2rem;
+  }
+  #sign-up{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/backpacker.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 2rem 4rem 2rem;
+  }
+  #picture{
+    background-color: $color-perfect-pictures;
+    padding: 2rem 2rem 4rem 2rem;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    &:hover{
+      text-decoration: underline;
+    }
+  & h3{
+    font-size: 2rem;
+    font-weight: 100;
+    }
+  }
+}
